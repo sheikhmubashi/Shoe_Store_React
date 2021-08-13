@@ -5,7 +5,7 @@ import Router from './Router';
 
 const App = () => {
   return (
-    <div>
+    <div style={{textAlign:'center'}}>
       <Router />
     </div>
   )

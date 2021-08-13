@@ -1,9 +1,8 @@
 import React from 'react';
-import { useParams } from 'react-router';
-
+import { useParams } from 'react-router-dom';
 
 const ProductsItems = () => {
-    const { id } = useParams;
+    let { id } = useParams;
     console.log(id)
     return (
         <h1>Products Items</h1>
