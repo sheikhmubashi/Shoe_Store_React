@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
     return (
         <>
-            <h1>Welcome to the Home</h1>
+            <h1>Welcome to the Home Mubashir</h1>
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                 {Object.keys(shoes).map((keyName) => {
                     const shoe = shoes[keyName];
